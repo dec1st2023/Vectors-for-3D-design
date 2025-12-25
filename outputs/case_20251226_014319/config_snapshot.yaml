@@ -1,0 +1,60 @@
+CROSS_SECTION_WIDTH: 8.0
+END:
+- 0.0
+- 18.0
+- 9.0
+EXTRA_END_POINTS:
+- - 0.0
+  - 18.0
+  - 9.0
+- - -12.0
+  - 18.0
+  - 9.0
+- - -12.0
+  - 27.0
+  - 9.0
+- - -87.0
+  - 27.0
+  - 9.0
+EXTRA_START_POINTS:
+- - -87.0
+  - 36.0
+  - 9.0
+- - -12.0
+  - 36.0
+  - 9.0
+- - -12.0
+  - 45.0
+  - 9.0
+- - 0.0
+  - 45.0
+  - 9.0
+H: 27
+L: 72.0
+OBSTACLE_CLEARANCE: 0
+OBSTACLE_CUBE:
+- 31.5
+- 103.5
+- 22.5
+- 40.5
+- 4.5
+- 31.5
+ORIGIN_OFFSET:
+- 4.5
+- 4.5
+- 4.5
+SELF_CLEARANCE: 9.0
+START:
+- 0.0
+- 45.0
+- 9.0
+STATIC_CLEARANCE: 0
+W: 135.0
+lambda_constraints: 10.0
+lr: 0.01
+n_interp: 10
+n_modules: 20
+optimizer: gd
+output_dir: outputs
+seed: 42
+steps: 100
